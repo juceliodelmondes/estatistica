@@ -93,7 +93,7 @@ public class Main {
     private static Float soma(Float[] sequencia) {
         Float soma = 0.0f;
         for(Float numAtual : sequencia) {
-            soma = Float.sum(numAtual, numAtual);
+            soma = Float.sum(soma, numAtual);
         }
         return soma;
     }
